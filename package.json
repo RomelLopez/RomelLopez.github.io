@@ -1,7 +1,7 @@
 {
   "name": "romelsportfolio",
   "version": "0.1.0",
-  "homepage": "https://RomelLopez.github.io/rlopez.github.io",
+  "homepage": "https://romellopez.dev",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
