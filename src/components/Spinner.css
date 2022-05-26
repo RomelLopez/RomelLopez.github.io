@@ -22,7 +22,7 @@
     content: " ";
     border-radius: 50%;
     box-sizing: border-box;
-    border: 32px solid red;
+    border: 32px solid rgb(73, 200, 250);
     border-color: rgb(112, 237, 253) transparent rgb(112, 237, 253) transparent;
     animation: lds-hourglass 1.2s infinite;
 }
