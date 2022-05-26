@@ -1,0 +1,12 @@
+body {
+    background-color: #7ca2ce;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}

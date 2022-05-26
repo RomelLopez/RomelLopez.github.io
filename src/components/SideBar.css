@@ -1,0 +1,24 @@
+.iconsside {
+    orientation: left;
+    position: fixed;
+    bottom: 30px;
+    left: 16px;
+    right: auto;
+    z-index: 10;
+}
+
+.ulEdit {
+    list-style-type: none;
+    font-size: 25px;
+    border-left: solid rgb(26, 193, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ulEdit a {
+    text-decoration: none;
+    color: black;
+}

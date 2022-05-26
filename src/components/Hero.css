@@ -1,0 +1,51 @@
+.pheadedit {
+    display: block;
+    border-right: dashed;
+    border-left: dashed;
+
+    border-color: #4098e6;
+    border-radius: 40px;
+    padding: 7.2rem;
+    padding-bottom: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.9rem;
+    min-width: 600px;
+
+}
+
+.myname {
+    line-height: 0px;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.faceshot {
+    width: 34%;
+    min-width: 165px;
+    min-height: 36%;
+    float: right;
+    margin-left: 4.5rem;
+    margin-bottom: 4rem;
+    border: 0.3rem solid rgb(26, 183, 204);
+}
+
+.myname2 {
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+.foot {
+    border-style: groove;
+    border-color: rgb(4, 29, 141);
+}
+
+@media screen and (max-width: 390px) {
+    .pheadedit {
+        margin-left: 17.5rem;
+    }
+}
