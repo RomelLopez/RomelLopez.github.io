@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faR } from '@fortawesome/free-solid-svg-icons';
 import '../App.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import pdf from '../Resume/romelsresume10.pdf'
+import pdf from '../Resume/romelsresume.pdf'
 
 //the links at the top of the page
 const Navbar = () => {
