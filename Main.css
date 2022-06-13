@@ -192,6 +192,9 @@ a:hover {
     color: white;
     display: flex;
     float: right;
+    position: absolute;
+    right: 150px;
+    font-size: 45px;
 
 }
 
