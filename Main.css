@@ -187,6 +187,7 @@ a:hover {
     align-items: center;
     gap: 12%;
     color: white;
+    ;
 }
 
 .skilltitle {
@@ -200,6 +201,7 @@ a:hover {
 
 .projecttitle {
     color: white;
+
 }
 
 .skillname {
@@ -221,12 +223,15 @@ a:hover {
     display: flex;
     justify-content: center;
     flex: 50%;
-    height: 690px;
     background-color: #181818;
 }
 
 .projecttitle {
     font-size: 40px;
+}
+
+.projects {
+    margin-top: 10%;
 }
 
 .cardprojects {
@@ -345,11 +350,70 @@ a:hover {
 @media (max-width: 1080px) {
     * {
         flex-direction: column;
-        row-gap: 100px;
+
     }
 
     body {
         background-color: #181818;
     }
 
+}
+
+@media (max-width: 500px) {
+    .skillname {
+        font-size: 25px;
+        display: block;
+        width: 70px;
+    }
+
+    .secondsection {
+        margin-bottom: 30%;
+    }
+
+    .thirdsection {
+        margin-bottom: 30%;
+        display: flex;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .projecttitle {
+        font-size: 30px;
+    }
+
+    .cardprojects {
+        cursor: pointer;
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        min-width: 200px;
+        max-width: 100px;
+        text-align: center;
+        min-height: 370px;
+        border-radius: 1rem;
+        margin: 1.5rem;
+        transition: 0.3;
+    }
+
+    .cardprojects:hover {
+        transform: scale(1.1);
+    }
+
+    .cardtext {
+        margin: 0.5rem;
+        color: #000033;
+    }
+
+    .summary {
+        font-size: 18px;
+    }
+
+    .infotag {
+        font-weight: 200;
+        opacity: 0.7;
+    }
 }
