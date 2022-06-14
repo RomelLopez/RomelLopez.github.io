@@ -157,7 +157,6 @@ a:hover {
 
 .secondsection {
     display: flex;
-    height: 700px;
 }
 
 .gifleft {
@@ -174,7 +173,8 @@ a:hover {
 
 .skillright {
     flex: 50%;
-    display: flex;
+    display: inline-block;
+    flex-direction: column;
     justify-content: center;
     background-color: #181818;
 }
@@ -186,16 +186,16 @@ a:hover {
     flex-direction: row;
     align-items: center;
     gap: 12%;
+    color: white;
 }
 
 .skilltitle {
     color: white;
     display: flex;
-    float: right;
-    position: absolute;
-    right: 150px;
     font-size: 45px;
-
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 200px;
 }
 
 .projecttitle {
@@ -203,6 +203,17 @@ a:hover {
 }
 
 .skillname {
+    color: white;
+}
+
+.skillnames {
+    color: white;
+    display: flex;
+    font-size: 50px;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 12%;
     color: white;
 }
 
@@ -238,6 +249,7 @@ a:hover {
 
 .cardtext {
     margin: 0.5rem;
+    color: #000033;
 }
 
 .summary {
@@ -254,6 +266,16 @@ a:hover {
     color: white;
     font-size: 20px;
     height: 200px;
+}
+
+
+@media (max-width: 1480px) {
+    .skilltitle {
+        right: 10rem;
+        bottom: 0rem;
+        font-size: 45px;
+    }
+
 }
 
 @media (max-width: 952px) {
@@ -302,4 +324,15 @@ a:hover {
     #check:checked~ul {
         left: 0;
     }
+}
+
+
+@media (max-width: 1080px) {
+    * {
+        flex-direction: column;
+
+    }
+
+
+
 }
