@@ -58,9 +58,9 @@ a:hover {
 
 .reveal {
     position: relative;
-    transform: translateY(75px);
+    transform: translateY(120px);
     opacity: 0;
-    transition: 1s all ease;
+    transition: 1.5s all ease;
 }
 
 
