@@ -138,7 +138,8 @@ a:hover {
     display: flex;
     gap: 20px;
     box-sizing: border-box;
-    height: 40px;
+    flex-direction: row;
+    padding-bottom: 30px;
 }
 
 .resume {
@@ -357,13 +358,24 @@ a:hover {
         background-color: #181818;
     }
 
+    .gifleft {
+        padding-bottom: 15%;
+    }
+
+    .selfieimage {
+        padding-bottom: 5%;
+    }
 }
 
 @media (max-width: 500px) {
     .skillname {
-        font-size: 25px;
+        font-size: 30px;
         display: block;
         width: 70px;
+    }
+
+    .gifleft {
+        padding-bottom: 15%;
     }
 
     .secondsection {
@@ -391,7 +403,7 @@ a:hover {
         background-color: white;
         flex-direction: column;
         min-width: 200px;
-        max-width: 100px;
+        max-width: 330px;
         text-align: center;
         min-height: 370px;
         border-radius: 1rem;
@@ -416,4 +428,6 @@ a:hover {
         font-weight: 200;
         opacity: 0.7;
     }
+
+
 }
