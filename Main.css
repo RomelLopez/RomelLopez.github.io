@@ -12,6 +12,7 @@ html {
 
 body {
     font-family: montserrat;
+    background-color: #181818;
 }
 
 nav {
@@ -51,6 +52,19 @@ a.active,
 a:hover {
     background: #000033;
     transition: .5s;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(75px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .checkbtn {
@@ -132,6 +146,14 @@ a:hover {
     line-height: 25px;
     gap: 10px;
     box-sizing: border-box;
+}
+
+.contactme {
+    padding-bottom: 1%;
+}
+
+.contactpara {
+    padding-bottom: 1%;
 }
 
 .linkto {
