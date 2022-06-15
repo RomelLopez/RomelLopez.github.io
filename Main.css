@@ -19,6 +19,7 @@ nav {
     background: #181818;
     height: 80px;
     width: 100%;
+
 }
 
 label.logo {
@@ -32,6 +33,7 @@ label.logo {
 nav ul {
     float: right;
     margin-right: 20px;
+    z-index: 999;
 }
 
 nav ul li {
@@ -323,7 +325,7 @@ a:hover {
     }
 
     .navbarul {
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: 100vh;
         background: #2c3e50;
