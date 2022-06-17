@@ -19,6 +19,8 @@ nav {
     background: #181818;
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 99;
 
 }
 
@@ -28,6 +30,7 @@ label.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+
 }
 
 nav ul {
@@ -50,7 +53,6 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a.active,
 a:hover {
     background: #000033;
     transition: .5s;
@@ -345,20 +347,18 @@ a:hover {
         font-size: 20px;
     }
 
-    a:hover,
-    a.active {
+    a:hover {
         background: none;
         color: #0082e6;
     }
 
-    #check:checked~ul {
+    .revealNav {
         left: 0;
     }
 
+
     .skillname {
         font-size: 40px;
-
-
     }
 
     .secondsection {

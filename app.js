@@ -13,7 +13,20 @@ function reveal() {
     };
 };
 
+const check = document.querySelector('#check');
+const navbarLinks = document.querySelectorAll('.navbarul a');
+
+function removeNav() {
+    const navbarList = document.querySelector('.navbarul');
+    navbarList.classList.toggle('revealNav');
+};
+
+
 reveal()
-
-
 window.addEventListener('scroll', reveal);
+
+check.addEventListener('click', removeNav);
+
+for (let i = 0; i < navbarLinks.length; i++) {
+    navbarLinks[i].addEventListener('click', removeNav);
+};
