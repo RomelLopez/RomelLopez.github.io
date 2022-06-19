@@ -108,14 +108,16 @@ a:hover {
     color: white;
     flex-direction: column;
     gap: 10px 20px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+
 }
 
 .greetingpara {
     display: flex;
     font-size: 24px;
     color: white;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .selfieimage {
@@ -137,10 +139,10 @@ a:hover {
 }
 
 .contact {
-    font-size: 24px;
+    font-size: 23px;
     display: flex;
-    width: 105px;
-    height: 70px;
+    width: 136px;
+    height: 46px;
     background: #4E9CAF;
     padding: 10px;
     text-align: center;
