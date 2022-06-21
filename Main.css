@@ -329,6 +329,11 @@ a:hover {
         display: block;
     }
 
+
+    .cardprojects img {
+        height: 270px;
+    }
+
     .navbarul {
         position: absolute;
         width: 100%;
