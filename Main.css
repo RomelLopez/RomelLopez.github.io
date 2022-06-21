@@ -156,11 +156,12 @@ a:hover {
 }
 
 .contactme {
+    padding-top: 3%;
     padding-bottom: 1%;
 }
 
 .contactpara {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
 .linkto {
@@ -169,6 +170,11 @@ a:hover {
     box-sizing: border-box;
     flex-direction: row;
     padding-bottom: 30px;
+}
+
+.emailtext {
+    color: #0082e6;
+    font-size: 25px;
 }
 
 .resume {
