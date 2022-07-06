@@ -242,6 +242,7 @@ a:hover {
 
 .skillname {
     color: white;
+    width: 100%;
 }
 
 .skillnames {
@@ -253,6 +254,7 @@ a:hover {
     align-items: center;
     gap: 12%;
     color: white;
+    width: 100%;
 }
 
 .thirdsection {
@@ -310,11 +312,29 @@ a:hover {
 }
 
 
+@media (max-width: 1500px) {
+    .skillnames {
+        gap: 5%;
+    }
+
+}
+
 @media (max-width: 1480px) {
     .skilltitle {
         right: 10rem;
         bottom: 0rem;
         font-size: 45px;
+    }
+
+}
+
+@media (max-width: 1269px) {
+    .skillname {
+        font-size: 30px;
+    }
+
+    .skillnames {
+        gap: 2%;
     }
 
 }
