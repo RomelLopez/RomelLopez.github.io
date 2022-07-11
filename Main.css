@@ -215,6 +215,11 @@ a:hover {
     background-color: #181818;
 }
 
+.skillname i {
+    margin-left: 30px;
+}
+
+
 .skills {
     display: flex;
     font-size: 50px;
@@ -243,16 +248,15 @@ a:hover {
 .skillname {
     color: white;
     width: 100%;
+    display: initial;
+    flex-direction: row;
 }
 
 .skillnames {
-    color: white;
-    display: flex;
     font-size: 50px;
     list-style-type: none;
     flex-direction: row;
     align-items: center;
-    gap: 12%;
     color: white;
     width: 100%;
 }
@@ -330,7 +334,7 @@ a:hover {
 
 @media (max-width: 1269px) {
     .skillname {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .skillnames {
@@ -428,7 +432,7 @@ a:hover {
 @media (max-width: 500px) {
     .skillname {
         font-size: 24px;
-        display: block;
+
         width: 80px;
     }
 
