@@ -53,8 +53,10 @@ nav ul li a {
     border-radius: 3px;
 }
 
+
+
 a:hover {
-    background: #000033;
+    background: #1a60f8;
     transition: .5s;
 }
 
@@ -127,6 +129,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-self: center;
+    border-radius: 30px;
 }
 
 .ulEdit {
@@ -284,7 +287,7 @@ a:hover {
     min-width: 200px;
     max-width: 300px;
     text-align: center;
-    min-height: 370px;
+    min-height: 550px;
     border-radius: 1rem;
     margin: 1.5rem;
     transition: 0.3;
@@ -306,6 +309,7 @@ a:hover {
 .infotag {
     font-weight: 400;
     opacity: 0.7;
+    color: black;
 }
 
 .fourthsection {
@@ -479,7 +483,7 @@ a:hover {
 
     .cardtext {
         margin: 0.5rem;
-        color: #000033;
+        color: #000029;
     }
 
     .summary {
