@@ -142,6 +142,11 @@ a:hover {
     padding-bottom: 30px;
 }
 
+.ulEdit li i {
+    text-decoration: none;
+    color: white;
+}
+
 .contact {
     font-size: 23px;
     display: flex;
