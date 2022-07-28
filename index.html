@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="Main.css" />
-    <script src="https://kit.fontawesome.com/8f77ff1865.js" crossorigin="anonymous"></script>
-
     <title>Romel Lopez</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6e09318de.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <nav>
         <input type="checkbox" id="check">
-
         <label for="check" class="checkbtn">
             <i class="material-icons">menu</i>
         </label>
@@ -29,14 +26,11 @@
                     Home
                 </a>
             </li>
-
-
             <li>
-                <a href="#skillsgo">Skills</a>
+                <a href="#aboutgo">About</a>
             </li>
-
             <li>
-                <a href="#projectgo">Projects</a>
+                <a href="#projectsgo">Projects</a>
             </li>
 
             <li>
@@ -44,175 +38,98 @@
             </li>
         </ul>
     </nav>
-
-    <div class="mainbody">
-        <div class="leftSide" id="aboutgo">
-            <div>
-                <h1 class="greeting">
-                    Hey there, my name is Romel :)
-                </h1>
-
-                <p class="greetingpara"> Your Web Developer who helps build and design applications, which you like and
-                    need to build a better brand. It was in 2021, that I first began diving into this world of code - as
+    <div class="introbody reveal">
+        <div class="heading">
+            <div class="heading--one">Hey there, I'm Romel</div>
+            <div class="heading--two"> Im a front end web developer</div>
+        </div>
+    </div>
+    <section class="about reveal" id="aboutgo">
+        <h2 class="about--heading">About</h2>
+        <div class="about--content">
+            <div class="sides--profile">
+                <div class="profile--picture">
+                    <img src="selfie.jpg" alt="myself" class="selfieimage">
+                </div>
+                <div class="profile--para">Romel is Web Developer who helps build and design web applications, which you
+                    like and need to build a better brand. It was in 2021, that I first began diving into this world of
+                    code - as
                     my brother and friend would start to discuss topics in tech that I could easily understand and
                     follow.
                     It was then that I decided to teach myself UX and UI Design, this journey felt as if it filled a
                     hole that had been missing in my life throughout my educative career. The advantage that I have is
                     the passion and self motivation that I bring into this field.I do not have a traditional CS degree
                     and I did not graduate from a bootcamp, but I do have information and natural inclination to learn
-                    beyond most, because I am self - taught who carries a desire to continually learn more.
-                </p>
-
-                <ul class='ulEdit'>
-
-                    <li>
-                        <a href='https://github.com/RomelLopez'>
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    <li>
-                        <a href='https://www.linkedin.com/in/romel-lopez-983b44213/'>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="linkto">
-                    <a href="mailto: romelanthonylopez@gmail.com" class="contact">
-                        Contact Me
-                    </a>
-
-                    <a class='contact' download href="romelsresume10 (2).pdf">
-                        Resume
-                    </a>
-                </div>
+                    beyond most, because I am self - taught who carries a desire to continually learn more.</div>
             </div>
-
-        </div>
-
-        <div id="rightSide">
-            <img src="selfie.jpg" alt="myself" class="selfieimage reveal">
-        </div>
-
-    </div>
-
-    <div class="secondsection reveal" id="skillsgo">
-
-        <div class="gifleft">
-            <img src="dancing.GIF" alt="dancing gif" class="dance">
-        </div>
-
-        <div class="skillright">
-
-            <h1 class="skilltitle">Skills I Have To Offer</h1>
-
-            <ul class="skillnames">
-                <li class="skillname">
-                    <i class="fa-brands fa-js"></i>
-                    JavaScript
-                </li>
-
-                <li class='skillname'>
-                    <i class="fa-brands fa-react"></i>
-                    React
-                </li>
-
-                <li class='skillname'>
-                    <i class="fa-brands fa-css3-alt "></i>
-                    HTML/CSS
-                </li>
-            </ul>
-
-        </div>
-    </div>
-
-    <div class="thirdsection" id="projectgo">
-
-        <div class="projects reveal">
-            <h1 class="projecttitle">Projects</h1>
-
             <div class="skills">
-
-                <div class="cardprojects">
-                    <img src="LAsExoticRidesThumb.png" />
-
-                    <div class="cardtext">
-                        <a href="https://romellopez.dev/LAs-Exotic-Rides" target="_blank" rel=”noreferrer”
-                            class="infotag">LAs Exotic Rides</a>
-
-                        <p class="summary">
-                            LA Exotic Rides was created to
-                            become a place for car enthusiasts in the Los Angeles area
-                            to share the awesome cars roaming around the city.
-                        </p>
-
-                        <p class="languages">
-                            React JS
-                        </p>
+                <div class="skillnames">
+                    <div class="skillname">
+                        <i class="fa-brands fa-js"></i>
+                        JavaScript
                     </div>
 
-                </div>
+                    <div class="skillname">
+                        <i class="fa-solid fa-code"></i>
+                        Typescript
+                    </div>
 
-                <div class="cardprojects">
-                    <img src="cocktailt.png" />
+                    <div class='skillname'>
+                        <i class="fa-brands fa-react"></i>
+                        React
+                    </div>
 
-                    <div class="cardtext">
-                        <a href="https://romellopez.dev/Cocktail-Helper" target="_blank" rel=”noreferrer”
-                            class="infotag">Cocktail Helper</a>
-
-                        <p class="summary">
-                            Using an API Cocktail Helper was created to allow people
-                            to get a recommendations on or information of what cocktails
-                            they might decide to taste.
-                        </p>
-
-                        <p class="languages">
-                            React JS
-                        </p>
+                    <div class='skillname'>
+                        <i class="fa-brands fa-css3-alt "></i>
+                        HTML/CSS
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="projects reveal" id="projectsgo">
+        <h2 class="projects--heading">Projects</h2>
+        <div class="cardprojects">
+            <img src="LAsExoticRidesThumb.png" />
 
-    <div class="fourthsection reveal" id="contactgo">
-
-        <div class="bottomcontact">
-
-            <h1 class="contactme">
-                Contact Me
-            </h1>
-
-            <h2 class="contactpara">
-                GOT AN INTERESTING PROJECT TO WORK ON?
-            </h2>
-
-            <a class="emailtext" href="mailto: romelanthonylopez@gmail.com">
-                romelanthonylopez@gmail.com
-            </a>
+            <div class="cardtext">
+                <a href="https://romellopez.dev/LAs-Exotic-Rides" target="_blank" rel=”noreferrer” class="infotag">LAs
+                    Exotic Rides</a>
+                <p class="summary">
+                    LA Exotic Rides was created to
+                    become a place for car enthusiasts in the Los Angeles area
+                    to share the awesome cars roaming around the city.
+                </p>
+                <p class="languages">
+                    React JS
+                </p>
+            </div>
         </div>
+        <div class="cardprojects">
+            <img src="cocktailt.png" />
 
-        <ul class='ulEdit'>
-            <li>
-                <a href='https://www.instagram.com/rlope22/'>
-                    <i class="fa-brands fa-instagram instaicon"></i><i></i>
-                </a>
-            </li>
+            <div class="cardtext">
+                <a href="https://romellopez.dev/Cocktail-Helper" target="_blank" rel=”noreferrer”
+                    class="infotag">Cocktail Helper</a>
 
-            <li>
-                <a href='https://github.com/RomelLopez'>
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href='https://www.linkedin.com/in/romel-lopez-983b44213/'>
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-
-    </div>
-
+                <p class="summary">
+                    Using an API Cocktail Helper was created to allow people
+                    to get a recommendations on or information of what cocktails
+                    they might decide to taste.
+                </p>
+                <p class="languages">
+                    React JS
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact reveal" id="contactgo">
+        <h2 class="contact--heading">Contact</h2>
+        <p class="contact--para">IF HIRING OR YOU GOT AN INTERESTING PROJECT TO WORK ON </p>
+        <a class="emailtext" href="mailto: romelanthonylopez@gmail.com">
+            Email Me
+        </a>
+    </section>
 </body>
 <script src="app.js"></script>
 
