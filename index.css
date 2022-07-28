@@ -368,11 +368,23 @@ a:hover {
     }
 
     .cardprojects {
-        max-width: 300px;
+        width: 300px;
         min-height: 400px;
     }
 
     .contact--para {
-        font-size: 1.4rem;
+        font-size: 1rem;
+    }
+
+    .projects--heading {
+        font-size: 3.5rem;
+    }
+
+    .about--heading {
+        font-size: 3.5rem;
+    }
+
+    .contact--heading {
+        font-size: 3.5rem;
     }
 }
