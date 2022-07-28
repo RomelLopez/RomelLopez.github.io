@@ -338,7 +338,7 @@ a:hover {
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all 1.5s;
+        transition: all 1s;
     }
 
     nav ul li {
@@ -360,4 +360,19 @@ a:hover {
         left: 0;
     }
 
+}
+
+@media (max-width: 856px) {
+    .profile--para {
+        width: 420px;
+    }
+
+    .cardprojects {
+        max-width: 300px;
+        min-height: 400px;
+    }
+
+    .contact--para {
+        font-size: 1.4rem;
+    }
 }
