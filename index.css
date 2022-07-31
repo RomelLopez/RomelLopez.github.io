@@ -298,6 +298,29 @@ a:hover {
     background-color: yellow;
 }
 
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: #131a24;
+}
+
+.profilelinks {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.socials i {
+    font-size: 50px;
+}
+
+.copyright {
+    font-size: 1.3rem;
+}
+
 @media (max-width: 1249px) {
     .about--content {
         width: 60%;
