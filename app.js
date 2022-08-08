@@ -36,7 +36,7 @@ const canvas = document.getElementById('canvas1');
 
 const context = canvas.getContext('2d');
 canvas.width = 2900;
-canvas.height = 520;
+canvas.height = 460;
 
 const image1 = new Image();
 //image1.src = 'image1.png';
@@ -78,7 +78,7 @@ image1.addEventListener('load', function () {
         }
         draw() {
             context.beginPath();
-            context.fillStyle = 'white';
+            context.fillStyle = 'grey';
             context.arc(this.x, this.y, this.size, 0, Math.PI * 2);
             context.fill();
             //fills image with white hole
@@ -92,7 +92,7 @@ image1.addEventListener('load', function () {
     init();
     function animate() {
         context.drawImage(image1, 0, 0, canvas.width, canvas.height);
-        context.globalAlpha = 0.6;
+        context.globalAlpha = 0.8;
         context.fillStyle = 'rgb(0,0,0)';
         context.fillRect(0, 0, canvas.width, canvas.height);
         for (let i = 0; i < particlesArray.length; i++) {
