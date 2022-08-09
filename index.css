@@ -235,12 +235,14 @@ a:hover {
     font-size: 40px;
     justify-items: center;
     gap: 100px;
+
 }
 
 .skillname {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     border: 5px solid rgb(161, 26, 26);
 }
 
