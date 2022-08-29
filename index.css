@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: montserrat;
+    font-family: 'Comfortaa';
     background-color: #000000;
 }
 
@@ -237,6 +237,8 @@ a:hover {
     gap: 100px;
 
 }
+
+
 
 .skillname {
     display: flex;
