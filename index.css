@@ -246,6 +246,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 20px;
 }
 
 .projects {
