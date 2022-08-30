@@ -245,7 +245,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 5px solid rgb(161, 26, 26);
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
 }
 
 .projects {
@@ -485,6 +485,7 @@ a:hover {
 @media (max-width: 500px) {
     label.logo {
         font-size: 24px;
+        color: #fff;
 
     }
 }
@@ -493,12 +494,13 @@ a:hover {
 @media (max-width: 408px) {
     label.logo {
         font-size: 20px;
-
+        color: #fff;
     }
 }
 
 @media (max-width: 330px) {
     label.logo {
         font-size: 15px;
+        color: #fff;
     }
 }
