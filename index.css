@@ -674,12 +674,131 @@ a:hover {
 
 }
 
+@media (max-width: 700px) {
+    .wheels {
+        display: flex;
+        position: relative;
+        border: 2px solid #feda4a;
+        width: 335px;
+        height: 335px;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+    .wheels::before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        width: 280px;
+        height: 280px;
+        margin-left: -140px;
+        margin-top: -140px;
+        border: 2px solid #c49d8f;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+    .wheels:after {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: -29px;
+        margin-top: -29px;
+        background-color: rgb(30, 124, 124);
+        border: 8px solid orange;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+    .stand {
+        font-size: 12px;
+        text-align: center;
+        left: 50%
+    }
+
+    .buckets div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 95px;
+        height: 80px;
+        background-color: #a03d19;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 2px;
+        transform-origin: 50% 5%;
+        animation: bucket_rotate 60s infinite linear;
+    }
+
+    .buckets div::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 15px;
+        height: 8px;
+        margin: -2px 0 0 -10px;
+        background-color: #33293d;
+        border-top-left-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+
+    .buckets div span {
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        width: 90px;
+        height: 72px;
+        background-color: rgb(142, 77, 77);
+        border-left: 1px solid #6f7d99;
+        border-top: 1px solid #6f7d99;
+        font-size: 12px;
+        color: #ffffff;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .buckets div:nth-child(1) {
+        margin: -170px 0 0 -46px;
+    }
+
+    .buckets div:nth-child(2) {
+        margin: -6px 0 0 119px;
+    }
+
+    .buckets div:nth-child(3) {
+        margin: 161px 0 0 -46px;
+    }
+
+    .buckets div:nth-child(4) {
+        margin: -6px 0 0 -215px;
+    }
+
+    .buckets div:nth-child(even) {
+        background-color: rgb(22, 82, 62);
+    }
+
+}
+
+
+
 @media (max-width: 500px) {
     label.logo {
         font-size: 24px;
         color: #fff;
 
     }
+
+
 }
 
 
