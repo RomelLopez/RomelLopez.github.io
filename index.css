@@ -711,15 +711,18 @@ a:hover {
         margin-left: -29px;
         margin-top: -29px;
         background-color: rgb(30, 124, 124);
-        border: 8px solid orange;
+        border: 2px solid #c49d8f;
         border-radius: 50%;
         box-sizing: border-box;
     }
 
     .stand {
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
-        left: 50%
+        left: 50%;
+        font-weight: bold;
+        color: #f2f2f2;
+
     }
 
     .buckets div {
