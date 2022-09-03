@@ -531,7 +531,7 @@ a:hover {
 
 .emailtext {
     font-size: 1.8rem;
-    border: 5px solid rgb(161, 26, 26);
+    border: 5px solid rgb(68, 140, 161);
     border-radius: 5px;
     padding: 5px;
     color: #fff;
@@ -551,7 +551,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 160px;
+    height: 130px;
     background-color: #131a24;
 }
 
