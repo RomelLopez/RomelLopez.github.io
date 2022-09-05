@@ -64,8 +64,8 @@ nav ul li a {
 
 
 a:hover {
-    background: #0082e6;
-    transition: .5s;
+    background: #53bfe2;
+    transition: .7s;
 }
 
 #check {
@@ -206,8 +206,16 @@ a:hover {
 .selfieimage {
     height: 100%;
     width: 18rem;
-    border: solid 1px rgb(22, 141, 145);
+    border: solid 3px rgb(22, 87, 143);
     border-radius: 10px;
+    transition: filter 1s;
+    filter: drop-shadow(0px -25px 65px rgb(22, 87, 143)) contrast(90%) hue-rotate(12deg);
+}
+
+.selfieimage:hover {
+    border: solid .9px rgb(26, 164, 169);
+    filter: drop-shadow(0px 0px 16px rgb(22, 87, 143)) contrast(100%);
+    transition: filter 2s;
 }
 
 .profile--para {
@@ -488,12 +496,13 @@ a:hover {
     text-align: center;
     min-height: 450px;
     border-radius: 1rem;
-    margin: 1.5rem;
+    margin: 1.7rem;
     transition: 0.3;
 }
 
 .cardprojects:hover {
     transform: scale(1.1);
+    transition: .3s;
 }
 
 .cardtext {
@@ -503,12 +512,19 @@ a:hover {
 
 .summary {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .infotag {
     font-weight: 400;
     opacity: 0.7;
     color: black;
+
+}
+
+.languages {
+    background-color: #98c7ea;
+    border-radius: 4px;
 }
 
 .contact {
@@ -554,7 +570,10 @@ a:hover {
 }
 
 .infotag:hover {
-    background-color: yellow;
+    background-color: #98c7ea;
+    border-radius: 7px;
+    text-decoration: underline;
+    color: #000000;
 }
 
 .footer {
@@ -563,13 +582,14 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 130px;
-    background-color: #131a24;
+    margin-top: 10%;
+    margin-bottom: 3.8rem;
+    background-color: #000000;
+    color: #fff;
 }
 
 .profilelinks {
     display: flex;
-    margin-bottom: 20px;
 }
 
 .socials i {
