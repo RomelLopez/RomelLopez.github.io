@@ -104,5 +104,3 @@ image1.addEventListener('load', function () {
     }
     animate();
 })
-
-const imageselfie = document.getElementById('selfieimg');
