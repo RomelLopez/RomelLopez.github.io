@@ -647,6 +647,7 @@ a:hover {
 
 .profilelinks a:hover {
     background-color: #0f2c36;
+    border-radius: 8px;
 }
 
 
