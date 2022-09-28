@@ -637,9 +637,21 @@ a:hover {
 
 .socials i {
     font-size: 50px;
+    color: #0CBABA;
 }
 
+.socials {
+    margin: 10px;
+    color: #fcfcfc;
+}
+
+.profilelinks a:hover {
+    background-color: #0f2c36;
+}
+
+
 .copyright {
+    margin-top: 10px;
     font-size: 1.3rem;
 }
 
