@@ -488,6 +488,8 @@ a:hover {
 
 .imagesource {
     width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
 .cardprojects {
@@ -503,6 +505,7 @@ a:hover {
     margin: 1.7rem;
     transition: 0.3;
     position: relative;
+
 }
 
 .cardprojects:hover {
@@ -520,41 +523,51 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.links-and-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-title {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
 .infotag {
     font-weight: 400;
     opacity: 0.7;
     color: black;
     text-decoration: underline;
-    position: static;
-    z-index: -1;
 }
 
-.infotag::before {
+.infotag a {
+    position: static;
+    color: #000000;
+}
+
+.infotag a::before {
     content: "";
     display: block;
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 85.9%;
+    height: 100%;
     top: 0px;
     left: 0px;
 }
 
 .codelink {
-    z-index: 999;
-    margin: auto;
-    width: 20%;
+    z-index: 5;
     padding: 4px;
     background-color: #66d7f0;
     border-radius: 5px;
     color: #000000;
-
+    margin: 0 auto;
 }
 
 .languages {
     background-color: #98c7ea;
-    border-radius: 4px;
-    margin-top: 20px;
+    border-radius: 9px;
 }
 
 .contact {
