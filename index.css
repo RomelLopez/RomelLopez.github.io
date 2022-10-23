@@ -506,6 +506,7 @@ a:hover {
 
 .anchorlinks {
     display: block;
+    color: #000000;
 }
 
 .imagesource {
@@ -538,7 +539,7 @@ a:hover {
 .cardtext {
     margin: 0.7rem;
     color: #000033;
-    border-top: 2px solid #a1a1a1;
+    border-top: 2px solid #d1d1d1;
 }
 
 .summary {
