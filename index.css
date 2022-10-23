@@ -538,6 +538,7 @@ a:hover {
 .cardtext {
     margin: 0.7rem;
     color: #000033;
+    border-top: 2px solid #a1a1a1;
 }
 
 .summary {
