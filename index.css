@@ -142,7 +142,7 @@ a:hover {
     letter-spacing: 6px;
     perspective: 400px;
     text-align: justify;
-    top: 99999px;
+    top: 999px;
     transform-origin: 50% 100%;
     animation: thirdheading 100s linear;
     z-index: 999;
